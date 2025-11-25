@@ -6,7 +6,7 @@ const app = express();
 app.use(cors());
 app.use(json());
 
-// ✅ FIXED MongoDB connection (Mongoose v7+)
+
 connect("mongodb://127.0.0.1:27017/issuetracker") 
   .then(() => console.log("MongoDB Connected"))
   .catch((err) => console.log(err));
