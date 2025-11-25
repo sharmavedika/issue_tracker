@@ -1,0 +1,87 @@
+/* Container styling */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Card style box for filter, add form, and edit form */
+.card {
+  background: #1f1f1f;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #333;
+  margin-bottom: 20px;
+}
+
+/* Headings */
+.card h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+/* Table styling */
+.table-wrapper {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #1a1a1a;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+thead {
+  background: #333;
+}
+
+th, td {
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 1px solid #333;
+}
+
+tbody tr:hover {
+  background: #2a2a2a;
+}
+
+/* Form styling */
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin: 6px 0 12px;
+  border-radius: 8px;
+  border: 1px solid #444;
+  background: #2a2a2a;
+  color: white;
+}
+
+/* Edit modal */
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 420px;
+  transform: translate(-50%, -50%);
+  background: #1f1f1f;
+  padding: 24px;
+  border-radius: 14px;
+  border: 1px solid #444;
+  z-index: 999;
+}
+
+.modal h3 {
+  margin-top: 0;
+}
+
+/* Action buttons */
+.btn-danger {
+  color: white;
+  background: #c0392b;
+}
+
+.btn-danger:hover {
+  border-color: #e74c3c;
+}
